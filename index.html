@@ -3,114 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoja de Vida | Programación Web</title>
+    <title>Hoja de Vida</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="left-column">
+        <header>
+            <img src="assets/images/foto-perfil.jpg" alt="Foto de perfil">
+            <h1>Yanni Yazid Moreno Pertuz</h1>
+            <h2>Estudiante de Ingeniería de Sistemas</h2>
+        </header>
 
-    <!-- ================= ENCABEZADO ================= -->
-    <header>
-        <img src="assets/images/foto-perfil.jpg" alt="Foto de perfil" width="220">
-        <h1>Yanni Yazid Moreno Pertuz</h1>
-        <h2>Estudiante de Ingeniería de Sistemas</h2>
-    </header>
-
-    <!-- ================= PRINCIPAL ================= -->
-    <main>
-
-        <!-- SOBRE MÍ -->
-        <section id="sobre-mi">
-            <h3>Sobre mí</h3>
-            <p>
-                Estudiante de Ingeniería de Sistemas con interés en el los campos de desarrollo web
-                y la programación. Me caracterizo por tener una actitud responsable,
-                disposición para el aprendizaje continuo y gusto por la tecnología.
-                Busco fortalecer mis conocimientos en desarrollo frontend y buenas
-                prácticas de programación.
-            </p>
-        </section>
-
-        <!-- CONTACTO -->
         <section id="contacto">
             <h3>Contacto</h3>
             <ul>
-                <li><strong>Teléfono:</strong> 🇨🇴 +57 320 8494901</li>
+                <li><strong>Teléfono:</strong> +57 320 8494901</li>
                 <li><strong>Email:</strong> yanniyazid@gmail.com</li>
                 <li><strong>Ciudad:</strong> Santa Marta</li>
-                <li><strong>Sitio web GitHub:</strong> https://github.com/yanniyzd</li>
+                <li><strong>GitHub:</strong> https://github.com/yanniyzd</li>
                 <li><strong>Identificación:</strong> TI 1082910848</li>
             </ul>
         </section>
 
-        <!-- EDUCACIÓN -->
-        <section id="educacion">
-            <h3>Educación</h3>
-
-            <article>
-                <h4>Ingeniería de Sistemas</h4>
-                <p>Universidad del Magdalena</p>
-                <p><em>2022 – Actualidad</em></p>
-            </article>
-
-            <article>
-                <h4>Bachiller Académico</h4>
-                <p>Institución Educativa Distrital Técnica Guachacha</p>
-                <p><em>2018 – 2023</em></p>
-            </article>
-        </section>
-
-        <!-- HABILIDADES -->
         <section id="habilidades">
             <h3>Habilidades</h3>
             <ul>
                 <li>Trabajo en equipo</li>
                 <li>Responsabilidad y compromiso</li>
                 <li>Capacidad de aprendizaje autónomo</li>
-                <li>Pensamiento lógico, avanzado en reconocimiento de patrones y resolución de problemas</li>
+                <li>Pensamiento lógico</li>
                 <li>Conocimientos básicos de HTML y CSS</li>
-                <li><strong>Lenguajes de programación:</strong> Python, Java, C++, SQL, Scratch</li>
+                <li><strong>Lenguajes: </strong> Python, Java, C++, SQL, Scratch</li>
             </ul>
         </section>
 
-        <!-- PROYECTOS -->
-        <section id="proyectos">
-        <h3>Proyectos</h3>
-
-        <article>
-            <h4>Gestión de parqueadero</h4>
-            <p>
-            Aplicación en Python desarrollada en la materia de Algoritmos y Programación,
-            enfocada en el cálculo de precios y la administración de vehículos y dueños.
-            </p>
-        </article>
-
-        <article>
-            <h4>AIRPOORT</h4>
-            <p>
-            Proyecto en Java aplicando Programación Orientada a Objetos y Swing,
-            con interfaz gráfica para login, gestión de cuentas, empleados y vuelos.
-            </p>
-        </article>
-
-        <article>
-            <h4>Gestión de biblioteca</h4>
-            <p>
-            Sistema en C++ por consola, realizado en la materia de Estructura de Datos,
-            para la administración de libros, usuarios, préstamos e inventario.
-            </p>
-        </article>
-
-        <article>
-            <h4>FREETOUR</h4>
-            <p>
-            Base de datos en Microsoft SQL Server, diseñada para manejar reservas,
-            guías, turistas y reseñas, aplicando diagramas y organización en equipo.
-            </p>
-        </article>
-        </section>
-
-
-        <!-- IDIOMAS -->
         <section id="idiomas">
             <h3>Idiomas</h3>
             <ul>
@@ -119,28 +45,67 @@
             </ul>
         </section>
 
-        <!-- REFERENCIAS -->
         <section id="referencias">
-        <h3>Referencias</h3>
+            <h3>Referencias</h3>
+            <article>
+                <h4>Deybis Sierra</h4>
+                <p>
+                    Docente Catedrático<br>
+                    Universidad del Magdalena<br>
+                    <strong>Email:</strong> dsierra@unimagdalena.edu.co
+                </p>
+            </article>
+        </section>
+    </div>
 
-        <article>
-            <h4>Deybis Sierra</h4>
+    <div class="right-column">
+        <section id="sobre-mi">
+            <h3>Sobre mí</h3>
             <p>
-            Docente Catedrático<br>
-            Universidad del Magdalena<br>
-            <strong>Email:</strong> dsierra@unimagdalena.edu.co
+                Estudiante de Ingeniería de Sistemas con interés en desarrollo web
+                y programación. Me caracterizo por tener una actitud responsable,
+                disposición para el aprendizaje continuo y gusto por la tecnología.
+                Busco fortalecer mis conocimientos en desarrollo frontend.
             </p>
-        </article>
         </section>
 
+        <section id="educacion">
+            <h3>Educación</h3>
+            <article>
+                <h4>Ingeniería de Sistemas</h4>
+                <p>Universidad del Magdalena</p>
+                <p><em>2022 – Actualidad</em></p>
+            </article>
+            <article>
+                <h4>Bachiller Académico</h4>
+                <p>Institución Educativa Distrital Técnica Guachacha</p>
+                <p><em>2018 – 2023</em></p>
+            </article>
+        </section>
 
-    </main>
+        <section id="proyectos">
+            <h3>Proyectos</h3>
+            <article>
+                <h4>Gestión de parqueadero</h4>
+                <p>Aplicación en Python para cálculo de precios y administración de vehículos.</p>
+            </article>
+            <article>
+                <h4>AIRPOORT</h4>
+                <p>Proyecto en Java con interfaz gráfica para gestión de vuelos.</p>
+            </article>
+            <article>
+                <h4>Gestión de biblioteca</h4>
+                <p>Sistema en C++ para administración de libros y préstamos.</p>
+            </article>
+            <article>
+                <h4>FREETOUR</h4>
+                <p>Base de datos en SQL Server para reservas y turistas.</p>
+            </article>
+        </section>
 
-    <!-- ================= PIE DE PÁGINA ================= -->
-    <footer>
-    <p>Yanni Moreno | Portafolio académico y profesional</p>
-    </footer>
-
-
+        <footer>
+            <p>Yanni Moreno | Portafolio académico y profesional</p>
+        </footer>
+    </div>
 </body>
 </html>
