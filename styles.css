@@ -148,6 +148,39 @@ footer {
     position: relative; /* Para que la imagen se posicione dentro de esta columna */
 }
 
+/* Estilos para enlaces en columna izquierda */
+.left-column a {
+    color: #60a5fa;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.left-column a:hover {
+    color: #3b82f6;
+    text-decoration: underline;
+}
+
+/* Estilos para enlaces en columna derecha (por si acaso) */
+.right-column a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.right-column a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+/* Para el email en referencias (ya está dentro de .left-column) */
+#referencias a {
+    color: #60a5fa;
+}
+
+#referencias a:hover {
+    color: #3b82f6;
+}
+
 /* Responsive */
 @media (max-width: 1100px) {
     body {
