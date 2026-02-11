@@ -133,6 +133,21 @@ footer {
     border-top: 1px solid #e2e8f0;
 }
 
+/* Imagen del caballerito */
+.caballerito {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    height: auto;
+    z-index: 999;
+}
+
+/* Contenedor para la imagen dentro de la columna derecha */
+.right-column {
+    position: relative; /* Para que la imagen se posicione dentro de esta columna */
+}
+
 /* Responsive */
 @media (max-width: 1100px) {
     body {
